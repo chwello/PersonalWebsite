@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500;800&display=swap');
+@import url(https://fonts.google.com/specimen/Quicksand);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  max-width: 1360px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 24px;
+}
+
+.container-last{
+  max-width: 1360px;
+  min-height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 17px;
+}
+
+
+
+li, a {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding: 20px 5%;
+ 
+ 
+}
+
+.text-logo{
+  font-family: "Inter Tight", sans-serif;
+}
+
+.nav-links li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+  color: black;
+  
+}
+
+.black{
+  color: black;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  color: #bab7b7;
+}
+
+hr{
+  height:1px;
+  border-width:0;
+  background-color:rgb(226, 225, 225)
+}
+
+#my-name{
+  text-align: center;
+  padding: 10%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 120px;
+  font-weight: bold;
+  
+}
+
+.column {
+  width: 12.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  box-sizing: border-box;
+  margin-top:-110px;
+ 
+ }
+
+ img{
+  width: 100%;
+ }
+
+ h5{
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  color: rgb(169, 168, 168);
+ }
+
+ .divider{
+  width: 100%;
+    height: 1px;
+    background-color:rgb(226, 225, 225);
+    position: static;
+    margin-top: 90px;
+    
+ }
+
+ .grid-container{
+  font-family: "Inter Tight", sans-serif;
+  font-size: 15px;
+  margin:20px 20px;
+  display: flex;
+  justify-content: space-between;
+  
+ }
+
+
+ .text-year, .text-left-copy{
+  color: rgb(168, 161, 161);
+  font-weight: 500;
+ }
+
+ .zero-one{
+  font-family: "Inter Tight", sans-serif;
+  font-size: 17px;
+  color: rgb(168, 161, 161);
+  font-weight: 400;
+ }
+
+ .travel-grid{
+  display: flex;
+  justify-content: space-between;
+  margin:90px 20px;
+ }
+
+ .travel-img{
+  width: 60%;
+  display: inline-block;
+  margin-left: 16%;
+ }
+
+ .travel-img1{
+  width: 60%;
+  display: inline-block;
+  margin-left: 13%;
+ }
+
+ 
+
+ .travel-info{
+  float: left;
+  font-family: "Inter Tight", sans-serif;
+  margin-left: 3%;
+ }
+
+ .travel-h2{
+  font-size:40px ;
+  font-weight: 500;
+ }
+
+.travel-paragraph{
+  font-size:20px ;
+  font-weight: 300;
+  margin-top: 10px;
+  color: rgb(168, 161, 161);
+}
+
+#category{
+  margin-top: 165px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#first-category, #second-category, #third-category {
+  padding: 16px 0;
+  border-bottom: 1px solid rgb(226, 225, 225);
+  
+}
+
+.divider-article{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(226, 225, 225);
+    position: static;
+    margin-top: 10px;
+ }
+
+.divider-about{
+  width: 100%;
+    height: 1px;
+    background-color:rgb(226, 225, 225);
+    position: static;
+    margin-top: -80px;
+    
+}
+
+.about-paragraph{
+  font-family: "Inter Tight", sans-serif;
+  font-size: 26px;
+  margin-top: 165px;
+  padding-right: 20px;
+}
+
+.skill-set{
+  font-family: "Inter Tight", sans-serif;
+  margin-top: 70px;
+  font-size: 18px;
+  color: rgb(168, 161, 161);
+}
+
+ .left-img{
+  width: 27.33%;
+  border-radius: 3%;
+ }
+
+.about-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-container{
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter Tight", sans-serif;
+  font-size:15px ;
+  margin-top:15px;
+}
+
+.skill-one, .skill-two, .skill-three{
+  padding:8px;
+  background-color: rgb(241, 241, 241);
+  margin: 5px;
+}
+
+footer{
+  font-family: "Inter Tight", sans-serif;
+  background-color: black;
+  
+}
+
+
+.title{
+
+  color: rgb(168, 161, 161);
+}
+
+
+.footer-header{
+display:flex;
+justify-content: flex-end;
+padding: 5px 0;
+}
+
+.fretchel{
+  color: white;
+  font-size: 20px;
+}
+
+.move{
+  margin-top:30px;
+  height:0.3px;
+  border-width:0;
+  background-color:rgb(28, 27, 27)
+}
+
+.footer-header a{
+  padding: 0 20px;
+  color: rgb(168, 161, 161);
+  font-size: 15px;
+}
+
+.footer-header a {
+  transition: all 0.3s ease 0s;
+}
+
+.footer-header a:hover{
+  color: #f6f5f5;
+}
+
+.text-middle{
+  color: rgb(168, 161, 161);
+  text-align: center;
+  margin-top: 150px;
+  font-size: 16px;
+}
+
+.connect-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+  margin-top: 10px;
+  
+}
+
+.hr-down{
+  margin-top:100px;
+  height:0.3px;
+  border-width:0;
+  background-color:rgb(28, 27, 27);
+ 
+}
+
+.about-text{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 800;
+  font-size: 200px;
+}
+
+.img-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 70px 0;
+  
+  
+}
+
+.img-text img{
+  width: 23%;
+  margin-left: 3%;
+  margin-top: -65%;
+}
+
+img.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+  width: 23%;
+}
+
+
+.about-me{
+  width: 100%;
+  margin-left: 8%;
+  font-family: "Inter Tight", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.main-text{
+  font-size: 23px;
+}
+
+.help{
+  margin-top: 70px;
+  color: rgb(168, 161, 161);
+}
+
+.about-me-disc{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 23px 0;
+  border-bottom: 1px solid rgb(226, 225, 225);
+}
+
+.item1{
+  padding-bottom: 18px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.item1-paragraph{
+  color: rgb(168, 161, 161);
+}
+
+.number{
+  padding-top: 34px;
+  color: rgb(168, 161, 161);
+ 
+}
+
+.my-background{
+  margin-top: 70px;
+  position: relative;
+
+}
+
+.info-background{
+  font-size: 25px;
+}
+
+.experience{
+  margin-top: 50px;
+  color: rgb(168, 161, 161);
+}
+
+.list-background{
+  margin-top: 30px;
+}
+
+.second{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+ margin-top: -47px;
+ margin-right: -1%;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: column;
+  
+}
+
+.second-background{
+  padding:8px;
+  background-color: rgb(241, 241, 241);
+  margin: 5px;
+}
+
+.list-background{
+ 
+  width: 100%;
+  padding: 26px 0;
+}
+
+.org-name{
+  margin-top: -20px;
+  font-size: 18px;
+}
+
+.year{
+  margin-top: 14px;
+ 
+  color: rgb(168, 161, 161); 
+  border-bottom: 1px solid rgb(226, 225, 225); 
+}
+
+.contact-wrapper{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter Tight", sans-serif;
+  margin: 80px 14px;
+  
+}
+
+.contactt-info{
+  
+  padding: 55px 0;
+
+}
+
+.div-form{
+  display: flex;
+  justify-content: column;
+  
+}
+
+.currectloc{
+  color: rgb(168, 161, 161);
+}
+
+.place{
+  margin-top: 20px;
+  font-size: 19px;
+  padding-bottom: 29px;
+}
+
+.email{
+  
+  margin-top: -20px;
+}
+
+.contactt-info{
+  margin-top: -50px;
+}
+
+.contactnum, .social-text{
+  color: rgb(168, 161, 161);
+  font-size: 16px;
+}
+
+.social-text{
+  padding: 10px 0;
+}
+
+.myemail{
+  margin-top: 40px;
+}
+
+.myemail, .mobile-num{
+  font-size: 18px;
+  padding: 3px 0;
+}
+
+.social-wrapper{
+  margin-top: 30px;
+}
+
+.social-div{
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.Facebook{
+  padding: 10px 0;
+}
+
+.contact-infotwo{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ 
+}
+
+.large-text{
+  font-size: 25px;
+}
+
+.div-form{
+margin-bottom: 170px;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.name-label{
+  padding: 10px 0;
+}
+
+input{
+  border: none;
+  background-color: rgb(241, 241, 241);
+  padding: 18px 20px;
+  font-size: 20px;
+  
+}
+
+.name-label{
+  width: 800px;
+ 
+}
+
+
+
+textarea{
+  border: none;
+  background-color: rgb(241, 241, 241);
+  padding: 18px 20px;
+  font-size: 20px;
+  font-family: "Inter Tight", sans-serif;
+  height: 170px;
+}
+
+input[type="submit"]{
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 10px 10px;
+  font-size: 17px;
+  margin: 30px 0;
+}
+
+input.submit{
+  transition: all 0.1s ease 0s;
+}
+
+input:hover[type="submit"] 
+		{
+			background: rgb(0, 0, 0);
+		}
+
+input:hover[value="Submit Your Message"]{
+color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
